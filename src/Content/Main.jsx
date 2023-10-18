@@ -8,32 +8,32 @@ import tokoImg from '../assets/img/toko.png';
 function Main() {
     return (
         <>
-               <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-9 col-md-8 col-sm-12">
-                    <section class="carousel">
-        <div class="row">
-            <div class="col-12">
-                <div class="d-flex justify-content-end align-items-center vh-80 vw-80 pb-1 pt-1"></div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src={kebutuhanImg} class="d-block w-100 h-100" alt="..."/>
+               <div className="container-fluid">
+            <div className="row justify-content-center">
+                <div className="col-lg-9 col-md-8 col-sm-12">
+                    <section className="carousel">
+        <div className="row">
+            <div className="col-12">
+                <div className="d-flex justify-content-end align-items-center vh-80 vw-80 pb-1 pt-1"></div>
+            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={kebutuhanImg} className="d-block w-100 h-100" alt="..."/>
                 </div>
-                <div class="carousel-item justify-content-center">
-                        <img src={promoImg} class="d-block w-100 h-100" alt="..."/>
+                <div className="carousel-item justify-content-center">
+                        <img src={promoImg} className="d-block w-100 h-100" alt="..."/>
                 </div>
-                <div class="carousel-item justify-content-center">
-                    <img src={elektronikImg} class="d-block w-100 h-100" alt="..."/>
+                <div className="carousel-item justify-content-center">
+                    <img src={elektronikImg} className="d-block w-100 h-100" alt="..."/>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
     </div>
